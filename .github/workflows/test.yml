@@ -18,4 +18,4 @@ jobs:
 
       - run: npm install -g newman
 
-      - run: newman run qa_api_testing_collection.json.postman_collection.json"
+      - run: newman run qa_api_testing_collection.json -e qa_api_testing_environment.json
